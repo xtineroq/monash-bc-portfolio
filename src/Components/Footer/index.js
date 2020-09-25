@@ -84,7 +84,7 @@ function Footer() {
             <div id="footer-text">
                 <p>&copy; MCR. All Rights Reserved.</p>
             </div>
-    </footer>
+        </footer>
 
     );
 }

@@ -1,5 +1,6 @@
 import React from 'react';
 import "./style.css";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 function About(props) {
 
@@ -25,12 +26,12 @@ function About(props) {
                     <div class="col-12 col-lg-12">
                         <div class="row">
                             <div class="col-6 col-lg-6 mb-3 icon-parent">
-                                <div class="icon-box"><i class="fas fa-code myIcon"></i></div>
+                                <div class="icon-box"><FontAwesomeIcon icon="fas fa-code" className="myIcon" /></div>
                                 <h5 class="icon-title">Custom-built</h5>
                                 <p>Well-thought-out code base.</p>
                             </div>
                             <div class="col-6 col-lg-6 mb-3 icon-parent">
-                                <div class="icon-box"><i class="fas fa-mobile-alt myIcon"></i></div>
+                                <div class="icon-box"><FontAwesomeIcon icon="fas fa-mobile-alt" className="myIcon"/></div>
                                 <h5 class="icon-title">Responsive</h5>
                                 <p>Responsive layouts to suit any devices.</p>
                             </div>
@@ -39,12 +40,12 @@ function About(props) {
                     <div class="col-12 col-lg-12">
                         <div class="row">
                             <div class="col-6 col-lg-6 icon-parent">
-                                <div class="icon-box"><i class="far fa-lightbulb myIcon"></i></div>
+                                <div class="icon-box"><FontAwesomeIcon icon="far fa-lightbulb" className="myIcon" /></div>
                                 <h5 class="icon-title">Intuitive</h5>
                                 <p>Easy to use, intuitive UX/UI design.</p>
                             </div>
                             <div class="col-6 col-lg-6 icon-parent">
-                                <div class="icon-box"><i class="fas fa-cogs myIcon"></i></div>
+                                <div class="icon-box"><FontAwesomeIcon icon="fas fa-cogs" className="myIcon" /></div>
                                 <h5 class="icon-title">Dynamic</h5>
                                 <p>Let's make your website come to life.</p>
                             </div>

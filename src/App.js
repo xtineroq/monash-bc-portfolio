@@ -1,24 +1,23 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import Header from './Components/Header';
+import Footer from './Components/Footer';
+import About from './Components/About';
+import Projects from './Components/Projects';
+import portfolioData from './Utils/portfolioData.json'
+import { library } from '@fortawesome/fontawesome-svg-core'
+// import { farFaEye } from '@fortawesome/free-solid-svg-icons'
+
+// library.add(farFaEye)
 
 function App() {
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Header data={portfolioData}/>
+      <Projects data={portfolioData}/>
+      <About />
+      <Footer />
     </div>
   );
 }

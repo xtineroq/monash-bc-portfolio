@@ -1,14 +1,15 @@
 import React from 'react';
 import "./style.css";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 function Projects(props) {
 
-      let projects = props.data.projects.map((project) => {
+    //   let projects = props.data.projects.map((project) => {
         
-        return(
-            console.log(project)
-        );
-      })
+    //     return(
+    //         console.log(project)
+    //     );
+    //   })
 
     return (
         <section id="project-section">
@@ -19,14 +20,14 @@ function Projects(props) {
                 <div className="row mx-auto">
                     <div className="col-lg-6 col-12 img-cont">
                         <div className="img-bar text-center">
-                            <a href={props.projects.appUrl} className="far fa-eye"></a>
+                            <a href={props.appUrl}><FontAwesomeIcon icon="farFaEye" /></a>
                         </div>
                         <article className="text-left">
-                        <h2>{props.projects.title}</h2>
-                            <h4>{props.projects.description}</h4>
-                            <a href={props.projects.githubUrl}>View on Github</a>
+                        <h2>{props.title}</h2>
+                            <h4>{props.description}</h4>
+                            <a href={props.githubUrl}>View on Github</a>
                         </article>
-                        <img src={props.projects.image} alt={props.projects.title}></img>
+                        <img src={props.image} alt={props.title}></img>
                     </div>
                 </div>
             </div>
