@@ -1,6 +1,7 @@
 import React from 'react';
 import "./style.css";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faEye } from '@fortawesome/free-solid-svg-icons'
 
 function Projects(props) {
 
@@ -20,7 +21,7 @@ function Projects(props) {
                 <div className="row mx-auto">
                     <div className="col-lg-6 col-12 img-cont">
                         <div className="img-bar text-center">
-                            <a href={props.appUrl}><FontAwesomeIcon icon="farFaEye" /></a>
+                            <a href={props.appUrl}><FontAwesomeIcon icon={faEye} /></a>
                         </div>
                         <article className="text-left">
                         <h2>{props.title}</h2>

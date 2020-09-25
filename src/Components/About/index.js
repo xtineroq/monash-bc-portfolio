@@ -1,6 +1,74 @@
 import React from 'react';
 import "./style.css";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+import Slider from "react-slick";
+import html from "../../Images/tools-logo/html5.png";
+import css from "../../Images/tools-logo/css3.png";
+import js from "../../Images/tools-logo/JS.png";
+import nodejs from "../../Images/tools-logo/nodejs.png";
+import express from "../../Images/tools-logo/express.png";
+import sequelize from "../../Images/tools-logo/sequelize.png";
+import mysql from "../../Images/tools-logo/mysql.png";
+import mongodb from "../../Images/tools-logo/mongodb.png";
+import bootstrap from "../../Images/tools-logo/bootstrap.png";
+import canva from "../../Images/tools-logo/canva.png";
+import invision from "../../Images/tools-logo/invision.png";
+
+
+const Slick = () => {
+    const settings = {
+        dots: true,
+        infinite: true,
+        speed: 500,
+        slidesToShow: 4,
+        slidesToScroll: 3,
+        autoplay: true,
+        autoplaySpeed: 2000,
+        cssEase: "linear"
+    }
+
+    return (
+        <div className="container">
+            <Slider {...settings}>
+            <div>
+                <img src={html} alt="html5-logo"/>
+            </div>
+            <div>
+                <img src={css} alt="css3-logo"/>
+            </div>
+            <div>
+                <img src={js} alt="js-logo"/>
+            </div>
+            <div>
+                <img src={nodejs} alt="nodejs-logo"/>
+            </div>
+            <div>
+                <img src={express} alt="express-logo"/>
+            </div>
+            <div>
+                <img src={sequelize} alt="sequelize-logo"/>
+            </div>
+            <div>
+                <img src={mysql} alt="mysql-logo"/>
+            </div>
+            <div>
+                <img src={mongodb} alt="mongodb-logo"/>
+            </div>
+            <div>
+                <img src={bootstrap} alt="bootstrap-logo"/>
+            </div>
+            <div>
+                <img src={canva} alt="canva-logo"/>
+            </div>
+            <div>
+                <img src={invision} alt="invision-logo"/>
+            </div>
+            </Slider>
+        </div>
+    );
+}
 
 function About(props) {
 
@@ -55,21 +123,11 @@ function About(props) {
             </div>
 
             {/* Tools and Technologies Carousel */}
+
+
             <div class="tt-cont container">
                 <h4 class="section-title">TOOLS &amp; TECHNOLOGIES</h4>
-                <section class="tools-tech slider">
-                    <div class="slide"><img src="../../../public/images/tools-logo/html5.png" alt="html5-logo"></img></div>
-                    <div class="slide"><img src="../../../public/images/tools-logo/css3.png" alt="css3-logo"></img></div>
-                    <div class="slide"><img src="../../../public/images/tools-logo/JS.png" alt="js-logo"></img></div>
-                    <div class="slide"><img src="../../../public/images/tools-logo/nodejs.png" alt="nodejs-logo"></img></div>
-                    <div class="slide"><img src="../../../public/images/tools-logo/express.png" alt="express-logo"></img></div>
-                    <div class="slide"><img src="../../../public/images/tools-logo/sequelize.png" alt="sequelize-logo"></img></div>
-                    <div class="slide"><img src="../../../public/images/tools-logo/mysql.png" alt="mysql-logo"></img></div>
-                    <div class="slide"><img src="../../../public/images/tools-logo/mongodb.png" alt="mongodb-logo"></img></div>
-                    <div class="slide"><img src="../../../public/images/tools-logo/bootstrap.png" alt="bootstrap-logo"></img></div>
-                    <div class="slide"><img src="../../../public/images/tools-logo/canva.png" alt="canva-logo"></img></div>
-                    <div class="slide"><img src="../../../public/images/tools-logo/invision.png" alt="invision-logo"></img></div>
-                </section>
+                <Slick />
             </div>
 
         </section>
