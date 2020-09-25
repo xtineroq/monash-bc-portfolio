@@ -1,0 +1,61 @@
+/* Footer Styling */
+footer {
+    font-family: 'Quicksand', sans-serif;
+    width: 100%;
+    height: 550px;
+    background-color: #333333;
+    color: #ffffff;
+    text-align: center;
+    position: relative;
+}
+
+#footer-logo {
+    position: absolute;
+    top: -35px;
+    left: 10%;
+}
+
+/* Contact Section Styling */
+#contact-section {
+    padding-top: 90px;
+}
+
+.heading-style {
+    text-align: left;
+    font-weight: 800;
+}
+
+.contact-text {
+    color: white;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    text-align: left;
+}
+
+.form-row {
+    margin-bottom: 1rem;
+}
+
+#submitBtn {
+    margin-left: 5px;
+}
+
+.modal-title {
+    color: #ffffff;
+}
+
+.modal-content {
+    background-color: #00c2cb;
+    color: #ffffff;
+}
+
+#stop-submit {
+    color: red;
+    margin-top: 1rem;
+    margin-left: 1rem;
+}
+
+#footer-text {
+    display: block;
+    padding-top: 40px;
+}
