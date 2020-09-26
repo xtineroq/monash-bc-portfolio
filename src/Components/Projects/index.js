@@ -1,7 +1,7 @@
 import React from 'react';
 import "./style.css";
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faEye } from '@fortawesome/free-solid-svg-icons'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faEye } from '@fortawesome/free-solid-svg-icons';
 
 function Projects(props) {
 
@@ -13,7 +13,7 @@ function Projects(props) {
     //   })
 
     return (
-        <section id="project-section">
+        <section id="projects">
 
             <h2 className="section-title">PROJECTS</h2>
 
