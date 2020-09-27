@@ -21,51 +21,53 @@ import invision from "../../Images/tools-logo/invision.png";
 
 const Slick = () => {
     const settings = {
-        dots: true,
+        dots: false,
         infinite: true,
         speed: 500,
         slidesToShow: 4,
-        slidesToScroll: 3,
+        slidesToScroll: 4,
         autoplay: true,
         autoplaySpeed: 2000,
-        cssEase: "linear"
+        cssEase: "linear",
+        centerMode: true,
+        arrows: false
     }
 
     return (
         <div className="container">
             <Slider {...settings}>
-            <div style={{height:"100px"}}>
-                <img src={html} alt="html5-logo"/>
+            <div>
+                <img src={html} alt="html5-logo" style={{height:"120px"}}/>
             </div>
             <div>
-                <img src={css} alt="css3-logo"/>
+                <img src={css} alt="css3-logo" style={{height:"120px"}}/>
             </div>
             <div>
-                <img src={js} alt="js-logo"/>
+                <img src={js} alt="js-logo" style={{height:"120px"}}/>
             </div>
             <div>
-                <img src={nodejs} alt="nodejs-logo"/>
+                <img src={nodejs} alt="nodejs-logo" style={{height:"120px"}}/>
             </div>
             <div>
-                <img src={express} alt="express-logo"/>
+                <img src={express} alt="express-logo" style={{height:"120px"}}/>
             </div>
             <div>
-                <img src={sequelize} alt="sequelize-logo"/>
+                <img src={sequelize} alt="sequelize-logo" style={{height:"120px"}}/>
             </div>
             <div>
-                <img src={mysql} alt="mysql-logo"/>
+                <img src={mysql} alt="mysql-logo" style={{height:"120px"}}/>
             </div>
             <div>
-                <img src={mongodb} alt="mongodb-logo"/>
+                <img src={mongodb} alt="mongodb-logo" style={{height:"120px"}}/>
             </div>
             <div>
-                <img src={bootstrap} alt="bootstrap-logo"/>
+                <img src={bootstrap} alt="bootstrap-logo" style={{height:"120px"}}/>
             </div>
             <div>
-                <img src={canva} alt="canva-logo"/>
+                <img src={canva} alt="canva-logo" style={{height:"120px"}}/>
             </div>
             <div>
-                <img src={invision} alt="invision-logo"/>
+                <img src={invision} alt="invision-logo" style={{height:"120px"}}/>
             </div>
             </Slider>
         </div>

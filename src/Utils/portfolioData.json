@@ -20,44 +20,44 @@
     "portfolio":{
       "projects": [
         {
-          "title":"BUDGET TRACKER",
+          "title":"BUDGET\\nTRACKER",
           "description":"Keep track of your spending with this app.",
-          "image":"../../public/images/budget.png",
+          "image":"budget.png",
           "githubUrl":"https://github.com/xtineroq/project-2",
           "appUrl":"https://project-2-monash.herokuapp.com/"
         },
         {
-          "title":"PERSONAL FITNESS PLANNER",
+          "title":"PERSONAL\\nFITNESS PLANNER",
           "description":"Personalised routine according to your needs.",
-          "image":"../../public/images/pfp.png",
+          "image":"pfp.png",
           "githubUrl":"https://github.com/xtineroq/projectOne---bootcamp",
           "appUrl":"https://ben-j-st.github.io/projectOne---bootcamp/"
         },
         {
-          "title":"BURGER LOGGER",
+          "title":"BURGER\\nLOGGER",
           "description":"Virtually satisfy your burger cravings.",
-          "image":"../../public/images/burger.png",
+          "image":"burger.png",
           "githubUrl":"https://github.com/xtineroq/cr-hw13-burger",
           "appUrl":"https://nameless-journey-49380.herokuapp.com/"
         },
         {
-          "title":"WEATHER DASHBOARD",
+          "title":"WEATHER\\nDASHBOARD",
           "description":"Powered by OpenWeather API.",
-          "image":"../../public/images/weather.png",
+          "image":"weather.png",
           "githubUrl":"https://xtineroq.github.io/cr-hw6-weather-dashboard/",
           "appUrl":"https://github.com/xtineroq/cr-hw6-weather-dashboard"
         },
         {
-          "title":"NOTE TAKER",
+          "title":"NOTE\\nTAKER",
           "description":"Deployed on Heroku and built with Express.",
-          "image":"../../public/images/note.png",
+          "image":"note.png",
           "githubUrl":"https://github.com/xtineroq/cr-hw11-note-taker",
           "appUrl":"https://mysterious-wildwood-12652.herokuapp.com/"
         },
         {
-          "title":"DAY PLANNER",
+          "title":"DAY\\nPLANNER",
           "description":"A calendar app to keep track of your tasks.",
-          "image":"../../public/images/planner.png",
+          "image":"planner.png",
           "githubUrl":"https://github.com/xtineroq/cr-hw5-day-planner",
           "appUrl":"https://xtineroq.github.io/cr-hw5-day-planner/"
         }

@@ -4,6 +4,7 @@
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
+    padding: 5% 0;
 }
 
 .title {
@@ -66,17 +67,8 @@
 }
 
 /* Slider */
-
-.slick-slide {
-    margin: 0px 20px;
-}
-
-.slick-slide img {
-    width: 100%;
-}
-
 .tt-cont {
-    border: 5px solid black;
-    height: 100px;
     padding-bottom: 7rem;
+    margin-left: 22%;
+    margin-right: 22%;
 }
