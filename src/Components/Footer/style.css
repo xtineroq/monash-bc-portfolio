@@ -12,12 +12,14 @@ footer {
 #footer-logo {
     position: absolute;
     top: -35px;
-    left: 10%;
+    left: 47%;
 }
 
 /* Contact Section Styling */
 #contact-section {
     padding-top: 90px;
+    width: 50%;
+    margin: auto;
 }
 
 .heading-style {
@@ -38,6 +40,10 @@ footer {
 
 #submitBtn {
     margin-left: 5px;
+}
+
+#thankYou {
+    visibility: hidden;
 }
 
 .modal-title {

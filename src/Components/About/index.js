@@ -84,11 +84,11 @@ function About(props) {
             {/* About Me */}
             <Container>
             <Row>
-                <div id="about-me" className="col-8 col-lg-7 mx-auto">
+                <div id="about-me">
                     <p>Hi there! I'm a month away from becoming a Full Stack Developer - woohoo! Currently juggling my 24-hour/week 9 to 5 job, 20-hour/week freelance job and being a student at Monash University's Coding Bootcamp. Yes, I'm flat out.</p>
                     <p>Having been working as a contractor for a Digital Marketing Agency, I am exposed to all sorts of aspects of building a website. Aside from seeing our web developers, UX/UI designers, etc. in action and getting inspired at what they do, I have always had this desire of being able to design, build and code a website or an application myself. That of which fuels my goal to quit my day job and become a full-time freelancer.</p>
                     <br></br>
-                    <a id="resumeBtn" href="../../../public/images/resume.pdf">View Resume</a>
+                    <a id="resumeBtn" href="../../Images/resume.pdf">View Resume</a>
                 </div>
             </Row>
             </Container>
