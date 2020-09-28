@@ -80,19 +80,6 @@ footer {
     color: #ffffff;
 }
 
-#thankYou {
-    visibility: hidden;
-}
-
-.modal-title {
-    color: #ffffff;
-}
-
-.modal-content {
-    background-color: #00c2cb;
-    color: #ffffff;
-}
-
 #stop-submit {
     color: red;
     margin-top: 1rem;
