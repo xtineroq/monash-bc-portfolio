@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/static/css/main.0ed44172.chunk.css",
-    "main.js": "/static/js/main.adef514b.chunk.js",
-    "main.js.map": "/static/js/main.adef514b.chunk.js.map",
+    "main.js": "/static/js/main.8b2c8595.chunk.js",
+    "main.js.map": "/static/js/main.8b2c8595.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.ca19f78b.js",
     "runtime-main.js.map": "/static/js/runtime-main.ca19f78b.js.map",
     "static/css/2.1c9ef103.chunk.css": "/static/css/2.1c9ef103.chunk.css",
-    "static/js/2.72ecb9a9.chunk.js": "/static/js/2.72ecb9a9.chunk.js",
-    "static/js/2.72ecb9a9.chunk.js.map": "/static/js/2.72ecb9a9.chunk.js.map",
+    "static/js/2.1b5e532a.chunk.js": "/static/js/2.1b5e532a.chunk.js",
+    "static/js/2.1b5e532a.chunk.js.map": "/static/js/2.1b5e532a.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.15bc8942e766ff251785a10c5616c340.js": "/precache-manifest.15bc8942e766ff251785a10c5616c340.js",
+    "precache-manifest.fe5dcc2dbebae97aff01784e46741440.js": "/precache-manifest.fe5dcc2dbebae97aff01784e46741440.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.1c9ef103.chunk.css.map": "/static/css/2.1c9ef103.chunk.css.map",
     "static/css/main.0ed44172.chunk.css.map": "/static/css/main.0ed44172.chunk.css.map",
-    "static/js/2.72ecb9a9.chunk.js.LICENSE.txt": "/static/js/2.72ecb9a9.chunk.js.LICENSE.txt",
+    "static/js/2.1b5e532a.chunk.js.LICENSE.txt": "/static/js/2.1b5e532a.chunk.js.LICENSE.txt",
     "static/media/JS.png": "/static/media/JS.cf03f1a0.png",
     "static/media/arrow-down.png": "/static/media/arrow-down.dc084081.png",
     "static/media/bootstrap.png": "/static/media/bootstrap.da53dc34.png",
@@ -23,7 +23,6 @@
     "static/media/canva.png": "/static/media/canva.46874cc5.png",
     "static/media/css3.png": "/static/media/css3.d73a1ede.png",
     "static/media/express.png": "/static/media/express.6e22a763.png",
-    "static/media/favicon.ico": "/static/media/favicon.c069cffc.ico",
     "static/media/grey-pattern.jpg": "/static/media/grey-pattern.856f31d9.jpg",
     "static/media/html5.png": "/static/media/html5.f2282f94.png",
     "static/media/invision.png": "/static/media/invision.724c6cfa.png",
@@ -44,8 +43,8 @@
   "entrypoints": [
     "static/js/runtime-main.ca19f78b.js",
     "static/css/2.1c9ef103.chunk.css",
-    "static/js/2.72ecb9a9.chunk.js",
+    "static/js/2.1b5e532a.chunk.js",
     "static/css/main.0ed44172.chunk.css",
-    "static/js/main.adef514b.chunk.js"
+    "static/js/main.8b2c8595.chunk.js"
   ]
 }
