@@ -9,8 +9,7 @@
 
 header {
     position: relative;
-    height: 800px;
-    min-height: 500px;
+    height: 100vh;
     width: 100%;
     text-align: center;
     overflow: hidden;
@@ -37,14 +36,17 @@ header .banner-text { width: 100%; }
 
 header .banner-text h1 {
     color: #fff;
-    letter-spacing: -2px;
+    letter-spacing: 2px;
     margin: 0 auto 18px auto;
+    font-weight: 500;
 }
 
 header .banner-text h3 {
     color: #fff;
     margin: 0 auto;
     width: 70%;
+    letter-spacing: 2px;
+    font-weight: 500;
 }
 
 header .banner-text h3 span,
@@ -57,6 +59,12 @@ header .banner-text hr {
     margin: 18px auto 24px auto;
     border-color: #2F2D2E;
     border-color: rgba(150, 150, 150, .1);
+}
+
+#my-photo {
+    margin-top: 2rem;
+    border-radius: 50%;
+    width: 150px;
 }
  
 /* header social links */
@@ -93,7 +101,6 @@ header .scrolldown a {
     width: 42px;
     font-size: 42px;
     line-height: 42px;
-    color: #fff;
     border-radius: 100%;
  
     -webkit-transition: all .3s ease-in-out;
@@ -106,8 +113,7 @@ header .scrolldown a:hover {
     color: #00c2cb;
 }
  
-/* primary navigation
---------------------------------------------------------------------- */
+/* navigation */
 #nav-wrap ul, #nav-wrap li, #nav-wrap a {
     margin: 0;
     padding: 0;

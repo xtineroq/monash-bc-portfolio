@@ -2,10 +2,9 @@ import React from 'react';
 import "./style.css";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faChevronCircleDown } from '@fortawesome/free-solid-svg-icons';
+import photo from "../../Images/me.jpg";
 
 function Header(props) {
-
-    console.log(props);
 
     return (
         <header id="home">
@@ -25,7 +24,7 @@ function Header(props) {
                 <div className="banner-text">
                     <h1 className="responsive-headline">Hello! I'm {props.data.main.name}</h1>
                     <h3>{props.data.main.tagline}</h3>
-                    <hr />
+                    <img src={photo} alt={props.data.main.name} id="my-photo"></img>
                     <ul className="social">
                         <a href={props.data.main.social[1]} className="button btn github-btn"><FontAwesomeIcon icon={["fab", "github"]}/></a>
                         <span>&nbsp;</span>

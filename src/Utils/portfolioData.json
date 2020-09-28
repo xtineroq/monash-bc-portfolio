@@ -1,9 +1,8 @@
 {
     "main": {
-      "name":"Christine ",
+      "name":"Christine",
       "tagline":"I'm a full-stack developer.",
-      "image":"../../public/images/me.jpg",
-      "bio":"Hi there! I'm a month away from becoming a Full Stack Developer - woohoo! Currently juggling my 24-hour/week 9 to 5 job, 20-hour/week freelance job and being a student at Monash University's Coding Bootcamp. Yes, I'm flat out. Having been working as a contractor for a Digital Marketing Agency, I am exposed to all sorts of aspects of building a website. Aside from seeing our web developers, UX/UI designers, etc. in action and getting inspired at what they do, I have always had this desire of being able to design, build and code a website or an application myself. That of which fuels my goal to quit my day job and become a full-time freelancer.",
+      "bio":"Doing this coding bootcamp at Monash University has been life-changing. Never did I thought I could go back to coding and doing what I love again after being in Technical Support and Managerial roles in the last 9 years. I took up Computer Science in college and knew that creating applications and leveraging technology to make life a little bit easier is what I have always wanted to do. Sadly, life has gotten in the way and I got sidetracked. So here I am, trying to find my feet again in the world of software development - and I couldn't be more happier!",
       "social":[
         {
           "name":"linkedIn",

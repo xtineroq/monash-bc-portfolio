@@ -18,8 +18,12 @@ footer {
 /* Contact Section Styling */
 #contact-section {
     padding-top: 90px;
-    width: 50%;
+    width: 600px;
     margin: auto;
+}
+
+#contact-form {
+    width: 100%;
 }
 
 .heading-style {
@@ -30,16 +34,50 @@ footer {
 .contact-text {
     color: white;
     margin-top: 2rem;
-    margin-bottom: 1rem;
+    margin-bottom: 3rem;
     text-align: left;
 }
 
 .form-row {
+    display: flex;
+    justify-content: space-between;
     margin-bottom: 1rem;
 }
 
+.input-field {
+    padding: 10px;
+    width: 275px !important;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 500;
+}
+
+#u-msg {
+    padding: 10px;
+    width: 580px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 500;
+}
+
 #submitBtn {
-    margin-left: 5px;
+    padding: 10px;
+    width: 100px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+#submitBtn:hover {
+    background-color: #00c2cb;
+    color: #ffffff;
 }
 
 #thankYou {

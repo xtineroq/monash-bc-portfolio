@@ -8,14 +8,14 @@
 }
 
 .title {
-    padding: 3rem;
     text-align: center;
+    color: #006166;
+    padding: 3rem;
 }
 
 #about-me {
-    margin-left: 18%;
-    margin-right: 18%;
-    margin-top: 5rem;
+    margin-left: 25%;
+    margin-right: 25%;
 }
 
 #resumeBtn {

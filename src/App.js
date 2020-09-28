@@ -16,7 +16,7 @@ function App() {
     <div className="App">
       <Header data={portfolioData}/>
       <Projects data={portfolioData}/>
-      <About />
+      <About data={portfolioData}/>
       <Footer />
     </div>
   );
