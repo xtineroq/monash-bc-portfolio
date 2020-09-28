@@ -7,7 +7,8 @@ function ModalBox(props) {
     const handleClose = () => props.setModalShow(false);
 
     return (
-        <Modal.Dialog {...props} centered>
+
+        <Modal {...props} centered>
             <Modal.Header closeButton>
                 <Modal.Title>Thank You!</Modal.Title>
             </Modal.Header>
@@ -19,7 +20,7 @@ function ModalBox(props) {
             <Modal.Footer>
                 <Button variant="secondary" onClick={handleClose}>Close</Button>
             </Modal.Footer>
-        </Modal.Dialog>
+        </Modal>
     );
 }
 

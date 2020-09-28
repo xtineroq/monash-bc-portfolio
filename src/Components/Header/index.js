@@ -68,9 +68,9 @@ function Header(props) {
                     <h2>{props.data.main.tagline}</h2>
                     <img src={photo} alt={props.data.main.name} id="my-photo"></img>
                     <ul className="social">
-                        <a href={props.data.main.social[1]} className="button btn github-btn"><FontAwesomeIcon icon={["fab", "github"]}/></a>
+                        <a href={props.data.main.social[1].url} className="button btn github-btn"><FontAwesomeIcon icon={["fab", "github"]}/></a>
                         <span>&nbsp;</span>
-                        <a href={props.data.main.social[0]} className="button btn project-btn"><FontAwesomeIcon icon={["fab", "linkedin"]}/></a>
+                        <a href={props.data.main.social[0].url} className="button btn project-btn"><FontAwesomeIcon icon={["fab", "linkedin"]}/></a>
                     </ul>
                 </div>
             </div>

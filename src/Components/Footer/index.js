@@ -34,6 +34,7 @@ function Footer() {
   }
 
   return (
+    <>
     <footer className="footer-align this-block" id="contact">
       <div className="container" id="footer-logo">
         <a href="#home">
@@ -124,10 +125,11 @@ function Footer() {
       <div id="footer-text">
         <p>&copy; MCR. All Rights Reserved.</p>
       </div>
-
-      {/* Form Submission Modal */}
-      <Modal modalShow={modalShow}/>
     </footer>
+
+    {/* Form Submission Modal */}
+    <Modal show={modalShow}/>
+    </>
   );
 }
 
