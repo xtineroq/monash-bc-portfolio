@@ -18,7 +18,6 @@ function ModalBox(props) {
 
             <Modal.Footer>
                 <Button variant="secondary" onClick={handleClose}>Close</Button>
-                <Button variant="primary" onClick={handleClose}>Save changes</Button>
             </Modal.Footer>
         </Modal.Dialog>
     );
