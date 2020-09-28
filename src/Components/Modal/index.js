@@ -7,7 +7,7 @@ function ModalBox(props) {
     const handleClose = () => props.setModalShow(false);
 
     return (
-        <Modal.Dialog {...props} onHide={handleClose} centered>
+        <Modal.Dialog {...props} centered>
             <Modal.Header closeButton>
                 <Modal.Title>Thank You!</Modal.Title>
             </Modal.Header>

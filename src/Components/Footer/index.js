@@ -121,12 +121,12 @@ function Footer() {
         </Form>
       </div>
 
-      {/* Form Submission Modal */}
-      <Modal modalShow={modalShow} onHide={() => setModalShow(false)}/>
-
       <div id="footer-text">
         <p>&copy; MCR. All Rights Reserved.</p>
       </div>
+
+      {/* Form Submission Modal */}
+      <Modal modalShow={modalShow}/>
     </footer>
   );
 }
