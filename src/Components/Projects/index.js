@@ -5,8 +5,9 @@ import { faEye } from "@fortawesome/free-solid-svg-icons";
 import { Container, Col } from "react-bootstrap";
 
 function Projects(props) {
-  // map each project data to be rendered
-  let projects = props.data.portfolio.projects.map((project) => {
+    // map each project data to be rendered
+    let projects = props.data.portfolio.projects.map((project) => {
+      
     // adding line break to titles
     let formattedTitle = project.title.replace("\\n", "\n");
 

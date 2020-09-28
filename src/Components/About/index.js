@@ -25,11 +25,10 @@ const Slick = () => {
         infinite: true,
         speed: 500,
         slidesToShow: 4,
-        slidesToScroll: 4,
+        slidesToScroll: 1,
         autoplay: true,
-        autoplaySpeed: 2000,
+        autoplaySpeed: 1500,
         cssEase: "linear",
-        centerMode: true,
         arrows: false
     }
 
@@ -94,7 +93,7 @@ function About(props) {
 
             {/* Specialties Icons */}
             <Container>
-                <h4 className="title">SPECIALTIES</h4>
+                <h3 className="title">SPECIALTIES</h3>
                 <Container className="icon-container">
                     <Row>
                         <Col lg={6} className="mb-3 icon-parent">
@@ -125,7 +124,7 @@ function About(props) {
 
             {/* Tools and Technologies Carousel */}
             <div className="tt-cont">
-                <h4 className="title">TOOLS &amp; TECHNOLOGIES</h4>
+                <h3 className="title">TOOLS &amp; TECHNOLOGIES</h3>
                 <Slick />
             </div>
 

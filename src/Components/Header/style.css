@@ -41,17 +41,12 @@ header .banner-text h1 {
     font-weight: 500;
 }
 
-header .banner-text h3 {
+header .banner-text h2 {
     color: #fff;
     margin: 0 auto;
     width: 70%;
     letter-spacing: 2px;
     font-weight: 500;
-}
-
-header .banner-text h3 span,
-header .banner-text h3 a {
-    color: #fff;
 }
 
 header .banner-text hr {

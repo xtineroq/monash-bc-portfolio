@@ -1,9 +1,26 @@
 import React from "react";
 import "./style.css";
+import $ from 'jquery';
 import { Form, Col } from "react-bootstrap";
 import logo from "../../Images/c-logo.png";
 
 function Footer() {
+
+  // submit button function
+  $("#submitBtn").on("click", function() {
+    const getName = $("input#u-name")[0].value;
+    const getEmail = $("input#u-email")[0].value;
+    const getMsg = $("textarea#u-msg")[0].value;
+
+    if (getName === "" || getEmail === "" || getMsg === "") {
+        $("#stop-submit").text("Uh-oh! Please complete all required fields.");
+        $("#submitBtn").removeAttr("data-target");
+    } else {
+        $("#submitBtn").attr("data-target", "#thankYou");
+        $("#stop-submit").text("");
+    }
+  });
+
   return (
     <footer className="footer-align this-block" id="contact">
       <div className="container" id="footer-logo">
